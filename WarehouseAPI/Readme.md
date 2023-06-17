@@ -59,6 +59,7 @@ builder.Services.Configure<JsonOptions>(options =>
 options.SerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
 });
 `
+
 20. Add GET endpoint to download Warehouse with products
 
 
